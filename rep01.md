@@ -19,11 +19,14 @@
 
 ４５６  
 
-半角スペース×２個で改行　 
+半角スペース×２個+一段下げるで改行
 
-`123  456`
+`123  
+456`
 
-123  456
+123  
+456
+
 
 ＞を使うことで行頭に引用を置ける(＞をつなげることで多重させることも可)
 
@@ -31,8 +34,10 @@
 >>2
 
   [表示文字]（URL）でリンクをつける
-  
-  [リンク]（https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa）
+ 
+ `[リンク](https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa)`
+ 
+ [リンク](https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa)
   
 `*斜体* `
 
